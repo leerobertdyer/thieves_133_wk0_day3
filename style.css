@@ -1,0 +1,51 @@
+body {
+    background-color: darkgoldenrod;
+    background-image:url('https://media.istockphoto.com/id/157163297/photo/dollar-litter-i.jpg?s=612x612&w=0&k=20&c=BYruqhqvi9dQ8EKHdn5z4_K9W-j-m8Prmur_cMCLptI=')
+}
+
+header {
+    font-size: 14px;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 22px;
+    box-shadow: 6px 7px aqua;
+}
+
+#mainDiv {
+    background-color: rgb(181, 107, 251);
+    padding: 20px;
+    border: black solid 4px;
+    border-radius: 12px;
+    background-image:url('https://media.istockphoto.com/id/1326286087/photo/environmental-damage-with-dollar-sign.jpg?s=612x612&w=0&k=20&c=t3CYoKneYdtLAexAtCNlg0srTUOlnmZsf5Bah4UF1pU=');
+}
+
+#topDiv {
+    background-color: burlywood;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: black solid 4px;
+    border-radius: 12px;
+}
+
+#topDiv:hover {
+    background-color: brown;
+    transition: 2s;
+    transform: rotate(360deg)
+}
+p {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+ul {
+    background-color: black;
+    opacity: 80%;
+    padding: 20px;
+}
